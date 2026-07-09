@@ -1,0 +1,482 @@
+[
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 3,
+      "matrix_size": 8,
+      "qubits_needed": 5
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 349,
+        "two_qubit_depth": 98,
+        "total_gates": 512,
+        "num_qubits": 156,
+        "single_qubit_gates": 414,
+        "two_qubit_gates": 98,
+        "gate_breakdown": {
+          "sx": 204,
+          "rz": 178,
+          "cz": 98,
+          "x": 28,
+          "measure": 4
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0020771026611328125,
+      "hamiltonian_construction_s": 0.07330894470214844,
+      "circuit_construction_s": 0.009156227111816406,
+      "ibm_transpilation_s": 3.1097986698150635
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 5,
+      "matrix_size": 16,
+      "qubits_needed": 6
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 1754,
+        "two_qubit_depth": 616,
+        "total_gates": 2929,
+        "num_qubits": 156,
+        "single_qubit_gates": 2307,
+        "two_qubit_gates": 622,
+        "gate_breakdown": {
+          "sx": 1358,
+          "rz": 933,
+          "cz": 622,
+          "x": 11,
+          "measure": 5
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0008828639984130859,
+      "hamiltonian_construction_s": 0.0008409023284912109,
+      "circuit_construction_s": 0.014829635620117188,
+      "ibm_transpilation_s": 2.2807769775390625
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 3,
+      "matrix_size": 32,
+      "qubits_needed": 7
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 1314,
+        "two_qubit_depth": 535,
+        "total_gates": 2755,
+        "num_qubits": 156,
+        "single_qubit_gates": 2155,
+        "two_qubit_gates": 600,
+        "gate_breakdown": {
+          "sx": 1294,
+          "rz": 851,
+          "cz": 600,
+          "measure": 6,
+          "x": 4
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0006985664367675781,
+      "hamiltonian_construction_s": 0.0008292198181152344,
+      "circuit_construction_s": 0.009464025497436523,
+      "ibm_transpilation_s": 2.265296220779419
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 5,
+      "matrix_size": 64,
+      "qubits_needed": 8
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 9984,
+        "two_qubit_depth": 4075,
+        "total_gates": 19116,
+        "num_qubits": 156,
+        "single_qubit_gates": 14913,
+        "two_qubit_gates": 4203,
+        "gate_breakdown": {
+          "sx": 8652,
+          "rz": 5928,
+          "cz": 4203,
+          "x": 326,
+          "measure": 7
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0008885860443115234,
+      "hamiltonian_construction_s": 0.0007152557373046875,
+      "circuit_construction_s": 0.02433156967163086,
+      "ibm_transpilation_s": 4.763742208480835
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 3,
+      "matrix_size": 128,
+      "qubits_needed": 9
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 8798,
+        "two_qubit_depth": 2772,
+        "total_gates": 12324,
+        "num_qubits": 156,
+        "single_qubit_gates": 9521,
+        "two_qubit_gates": 2803,
+        "gate_breakdown": {
+          "sx": 5831,
+          "rz": 3611,
+          "cz": 2803,
+          "x": 71,
+          "measure": 8
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0007164478302001953,
+      "hamiltonian_construction_s": 0.0006735324859619141,
+      "circuit_construction_s": 0.011735916137695312,
+      "ibm_transpilation_s": 4.1496500968933105
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 5,
+      "matrix_size": 256,
+      "qubits_needed": 10
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 24775,
+        "two_qubit_depth": 8251,
+        "total_gates": 39950,
+        "num_qubits": 156,
+        "single_qubit_gates": 31189,
+        "two_qubit_gates": 8761,
+        "gate_breakdown": {
+          "sx": 18536,
+          "rz": 12201,
+          "cz": 8761,
+          "x": 443,
+          "measure": 9
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0008642673492431641,
+      "hamiltonian_construction_s": 0.0009620189666748047,
+      "circuit_construction_s": 0.03771543502807617,
+      "ibm_transpilation_s": 8.421901941299438
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 3,
+      "matrix_size": 512,
+      "qubits_needed": 11
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 22296,
+        "two_qubit_depth": 6469,
+        "total_gates": 32403,
+        "num_qubits": 156,
+        "single_qubit_gates": 25663,
+        "two_qubit_gates": 6740,
+        "gate_breakdown": {
+          "sx": 15038,
+          "rz": 10347,
+          "cz": 6740,
+          "x": 268,
+          "measure": 10
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.001138925552368164,
+      "hamiltonian_construction_s": 0.001726388931274414,
+      "circuit_construction_s": 0.03064727783203125,
+      "ibm_transpilation_s": 7.146522521972656
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 5,
+      "matrix_size": 1024,
+      "qubits_needed": 12
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 74483,
+        "two_qubit_depth": 23750,
+        "total_gates": 112680,
+        "num_qubits": 156,
+        "single_qubit_gates": 88196,
+        "two_qubit_gates": 24484,
+        "gate_breakdown": {
+          "sx": 52472,
+          "rz": 34757,
+          "cz": 24484,
+          "x": 956,
+          "measure": 11
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0014278888702392578,
+      "hamiltonian_construction_s": 0.003648042678833008,
+      "circuit_construction_s": 0.09882831573486328,
+      "ibm_transpilation_s": 20.48839783668518
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 3,
+      "matrix_size": 2048,
+      "qubits_needed": 13
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 59226,
+        "two_qubit_depth": 16240,
+        "total_gates": 83748,
+        "num_qubits": 156,
+        "single_qubit_gates": 67034,
+        "two_qubit_gates": 16714,
+        "gate_breakdown": {
+          "sx": 38954,
+          "rz": 27761,
+          "cz": 16714,
+          "x": 307,
+          "measure": 12
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0017473697662353516,
+      "hamiltonian_construction_s": 0.009324312210083008,
+      "circuit_construction_s": 0.11246252059936523,
+      "ibm_transpilation_s": 15.269858837127686
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 5,
+      "matrix_size": 4096,
+      "qubits_needed": 14
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 187852,
+        "two_qubit_depth": 60546,
+        "total_gates": 288311,
+        "num_qubits": 156,
+        "single_qubit_gates": 226502,
+        "two_qubit_gates": 61809,
+        "gate_breakdown": {
+          "sx": 135006,
+          "rz": 90401,
+          "cz": 61809,
+          "x": 1082,
+          "measure": 13
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.002588033676147461,
+      "hamiltonian_construction_s": 0.03945159912109375,
+      "circuit_construction_s": 0.42844653129577637,
+      "ibm_transpilation_s": 52.46348190307617
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 3,
+      "matrix_size": 8192,
+      "qubits_needed": 15
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 146032,
+        "two_qubit_depth": 44805,
+        "total_gates": 218476,
+        "num_qubits": 156,
+        "single_qubit_gates": 172903,
+        "two_qubit_gates": 45573,
+        "gate_breakdown": {
+          "sx": 98844,
+          "rz": 71462,
+          "cz": 45573,
+          "x": 2583,
+          "measure": 14
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.0036089420318603516,
+      "hamiltonian_construction_s": 0.13898873329162598,
+      "circuit_construction_s": 1.0487072467803955,
+      "ibm_transpilation_s": 36.194889068603516
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 5,
+      "matrix_size": 16384,
+      "qubits_needed": 16
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 478497,
+        "two_qubit_depth": 149702,
+        "total_gates": 722447,
+        "num_qubits": 156,
+        "single_qubit_gates": 564464,
+        "two_qubit_gates": 157983,
+        "gate_breakdown": {
+          "sx": 338384,
+          "rz": 222098,
+          "cz": 157983,
+          "x": 3967,
+          "measure": 15
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.004675626754760742,
+      "hamiltonian_construction_s": 0.4097733497619629,
+      "circuit_construction_s": 3.9866652488708496,
+      "ibm_transpilation_s": 129.59414649009705
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 3,
+      "matrix_size": 32768,
+      "qubits_needed": 17
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 330247,
+        "two_qubit_depth": 95998,
+        "total_gates": 493162,
+        "num_qubits": 156,
+        "single_qubit_gates": 394581,
+        "two_qubit_gates": 98581,
+        "gate_breakdown": {
+          "sx": 224750,
+          "rz": 166915,
+          "cz": 98581,
+          "x": 2900,
+          "measure": 16
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.03013134002685547,
+      "hamiltonian_construction_s": 2.151251792907715,
+      "circuit_construction_s": 15.292216300964355,
+      "ibm_transpilation_s": 80.56348443031311
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 5,
+      "matrix_size": 65536,
+      "qubits_needed": 18
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 1086664,
+        "two_qubit_depth": 337627,
+        "total_gates": 1691145,
+        "num_qubits": 156,
+        "single_qubit_gates": 1337839,
+        "two_qubit_gates": 353306,
+        "gate_breakdown": {
+          "sx": 786384,
+          "rz": 541649,
+          "cz": 353306,
+          "x": 9789,
+          "measure": 17
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.009155511856079102,
+      "hamiltonian_construction_s": 1.4131247997283936,
+      "circuit_construction_s": 154.56055212020874,
+      "ibm_transpilation_s": 315.6941714286804
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 256,
+      "layers": 3,
+      "matrix_size": 131072,
+      "qubits_needed": 19
+    },
+    "standard": {
+      "hardware_torino": {
+        "depth": 784623,
+        "two_qubit_depth": 232047,
+        "total_gates": 1125155,
+        "num_qubits": 156,
+        "single_qubit_gates": 884373,
+        "two_qubit_gates": 240782,
+        "gate_breakdown": {
+          "sx": 520220,
+          "rz": 353756,
+          "cz": 240782,
+          "x": 10379,
+          "measure": 18
+        },
+        "backend": "ibm_pittsburgh"
+      }
+    },
+    "timings": {
+      "physics_generation_s": 0.01394033432006836,
+      "hamiltonian_construction_s": 7.180166721343994,
+      "circuit_construction_s": 0.5156362056732178,
+      "ibm_transpilation_s": 249.52305459976196
+    }
+  }
+]

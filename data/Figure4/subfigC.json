@@ -1498,5 +1498,125 @@
     },
     "run_index": 4,
     "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 3,
+      "matrix_size": 8388608,
+      "qubits_needed": 25
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 21497,
+      "success_rate": 0.00021497
+    },
+    "run_index": 0,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 3,
+      "matrix_size": 8388608,
+      "qubits_needed": 25
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 20729,
+      "success_rate": 0.00020729
+    },
+    "run_index": 1,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 3,
+      "matrix_size": 8388608,
+      "qubits_needed": 25
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 20503,
+      "success_rate": 0.00020503
+    },
+    "run_index": 2,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 3,
+      "matrix_size": 8388608,
+      "qubits_needed": 25
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 20092,
+      "success_rate": 0.00020092
+    },
+    "run_index": 3,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 3,
+      "matrix_size": 8388608,
+      "qubits_needed": 25
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 20747,
+      "success_rate": 0.00020747
+    },
+    "run_index": 4,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 5,
+      "matrix_size": 16777216,
+      "qubits_needed": 26
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 24012,
+      "success_rate": 0.00024012
+    },
+    "run_index": 0,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 5,
+      "matrix_size": 16777216,
+      "qubits_needed": 26
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 24807,
+      "success_rate": 0.00024807
+    },
+    "run_index": 1,
+    "standard": {}
+  },
+  {
+    "problem_size": {
+      "n_particles": 2048,
+      "layers": 5,
+      "matrix_size": 16777216,
+      "qubits_needed": 26
+    },
+    "measurement_stats": {
+      "total_shots": 100000000,
+      "success_counts": 23249,
+      "success_rate": 0.00023249
+    },
+    "run_index": 2,
+    "standard": {}
   }
 ]
